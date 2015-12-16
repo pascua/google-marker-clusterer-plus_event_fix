@@ -1,0 +1,24 @@
+{
+  "name": "google-marker-clusterer-plus_event_fix",
+  "homepage": "https://github.com/pascua/google-marker-clusterer-plus_event_fix",
+  "authors": [
+    "3oheme <ignacio.palomo.duarte@gmail.com>"
+  ],
+  "description": "Google marker clusterer plus version patched so it has event propagation support",
+  "main": "",
+  "moduleType": [],
+  "keywords": [
+    "google",
+    "maps",
+    "marker",
+    "clusterer"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
