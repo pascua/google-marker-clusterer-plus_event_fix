@@ -147,8 +147,8 @@ ClusterIcon.prototype.onAdd = function () {
        * @param {Cluster} c The cluster that was clicked.
        * @event
        */
-      google.maps.event.trigger(mc, "click", cClusterIcon.cluster_);
-      google.maps.event.trigger(mc, "clusterclick", cClusterIcon.cluster_); // deprecated name
+      google.maps.event.trigger(mc, "click", e, cClusterIcon.cluster_);
+      google.maps.event.trigger(mc, "clusterclick", e, cClusterIcon.cluster_); // deprecated name
 
       // The default click handler follows. Disable it by setting
       // the zoomOnClick property to false.
